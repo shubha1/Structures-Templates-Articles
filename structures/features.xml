@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element name="features" dataType="string" type="text" indexType="keyword" repeatable="true">
+		
+		<dynamic-element name="abstract" type="textarea" dataType="string" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				
+				<entry name="tip"><![CDATA[An abstract of the feature to be shown before readmore link]]></entry>
+				<entry name="label"><![CDATA[Abstract]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="icone" type="wcm-image" dataType="image" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				
+				<entry name="tip"><![CDATA[Select an expressive icone to be shown with the title]]></entry>
+				<entry name="label"><![CDATA[Icone]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="feature-link" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				
+				<entry name="tip"><![CDATA[The link to the full article describing the feature for external links add // before your link]]></entry>
+				<entry name="label"><![CDATA[Link to the Feature]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Theme Feature]]></entry>
+			<entry name="label"><![CDATA[Title]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+</root>

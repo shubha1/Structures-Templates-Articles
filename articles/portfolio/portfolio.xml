@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="MHNPl0Ho" name="portofolio-title" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[portofolio]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="3DMvsepn" name="categories" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="e7rgiwH8" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="I9OxnPlF" name="image-source"  type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="J618tCul" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Fresh01]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="RxehY3R4" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image0]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[tech]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="zaGazfe7" name="categories" dataType="string" type="text" indexType="keyword">
+
+		<dynamic-element instance-id="NHqSDEHV" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="63E7tHyq" name="image-source"  type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="cDh3FqEd" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[software]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="guJPZQfg" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image1]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="nliJdiam" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="7Z1aC8uw" name="image-source"  type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="35VRJgd7" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[software]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="y1Ab4m4x" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image 2]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[cat2]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="QnZKNiZ5" name="categories" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="BWe0ysWi" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="X4CYM98o" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="AZxGb9Cg" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Single Image]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="4TZA9xYn" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image 3]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="OwQBsGui" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="5eZQ0pRO" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="8Ugb6uJE" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[new solutions]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="d7lywbkg" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image 4]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="Bx3LC7tR" name="images" dataType="string" type="text" indexType="keyword">
+			<dynamic-element instance-id="jiw3ZUVL" name="image-source" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="4zyWeAaz" name="image-name" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[Solutions]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element instance-id="qkiYx12o" name="link" dataType="string" type="text" indexType="keyword">
+				<dynamic-content><![CDATA[#]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content><![CDATA[image 5]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[cat3]]></dynamic-content>
+	</dynamic-element>
+</root>

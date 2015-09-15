@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="rwWM7TxU" name="animation-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[1000]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="Thb078m3" name="slideshow-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[3000]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="r5c0CNdt" name="auto-slideshow" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="ns8ScXef" name="item-width" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="5Ixt6ZBo" name="max-items" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="P9qETLVa" name="moved-items" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="iTXxl1r6" name="direction-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="t42kIart" name="control-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="KCevlA1O" name="animation-loop" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="TMpmJ4Rp" name="pause-on-hover" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="GT3bPZ9M" name="animation-type" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[slide]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="w7u5yU5g" name="sliding-direction" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[horizontal]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="Z4uDKsJe" name="manual-controls" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="gNh29dTI" name="title" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[Lorem ipsum dolor sit amet.]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="YiBva9AN" name="description" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit.]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="9m6XP9dG" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="kQ4lh95M" name="image" type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=400_300.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="IP2j2PKI" name="image-height" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="yc3ix9Ud" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Lorem ipsem]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="g1xra69G" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="kQ4lh95M" name="image" type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=400_300.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="IPzj2PKI" name="image-height" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="DDyh0Mz9" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Lorem ipsem]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="g1xrafr9" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="kQ4lh95M" name="image" type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=400_300.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="IP2jppKI" name="image-height" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="rvQ3iy9f" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Lorem ipsem]]></dynamic-content>
+	</dynamic-element>
+</root>

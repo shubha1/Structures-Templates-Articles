@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element name="welcome-text" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Welcome citation]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="description" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Description]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+</root>

@@ -1,0 +1,27 @@
+
+
+<div id="features">
+#foreach($feature in $features.siblings)
+      #if(($velocityCount % 2) == 1)
+            <div class="block">               
+                 <img src="$feature.icone.data" alt="" class="home-icon">    			
+                 <div class="feature">
+                        <h3>$feature.data</h3>
+                        <p>$feature.abstract.data</p>
+           
+            
+                 </div>
+            </div>
+       #else
+             <div class="block last">               
+                 <img src="$feature.icone.data" alt="" class="home-icon">				
+                 <div class="feature">
+                        <h3>$feature.data</h3>
+                        <p>$feature.abstract.data</p>
+             
+                 </div>
+            </div>
+	#end
+#end
+<div class="fix"></div>
+</div>

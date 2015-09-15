@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="rf6JrNjG" name="facebook" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="3jreHw0n" name="fb-url-location" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[#]]></dynamic-content>
+	</dynamic-element>
+		<dynamic-element instance-id="rf6JrN87" name="google-plus" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="3jreRw08" name="gp-url-location" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[#]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="GCq0Nd6u" name="twitter" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="95GYntgE" name="tw-url-location" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[#]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="zaaxn0TT" name="linkedin" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="SaH9kkn6" name="li-url-location" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[#]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="vLWN9Y7W" name="rss" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="zQ3zOuc9" name="rs-url-location" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[#]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="qOcV2OFb" name="youtube" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="x2ed2lJ3" name="yu-url-location" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[#]]></dynamic-content>
+	</dynamic-element>
+	
+	<dynamic-element instance-id="qOcV2Oyb" name="vimeo" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="x2ed2lp3" name="vi-url-location" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[#]]></dynamic-content>
+	</dynamic-element>
+	
+	
+	<dynamic-element instance-id="5ByhMfQG" name="title" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[Stay Updated]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="ClMr3Ooh" name="tagline" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[Subscribe and follow us]]></dynamic-content>
+	</dynamic-element>
+	
+</root>

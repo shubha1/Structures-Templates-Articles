@@ -1,0 +1,8 @@
+<article class="about-us">
+    <header>
+        <h1>${title.getData()}</h1>
+    </header>
+    <section class="entry">
+        <p>${text.getData()}</p>
+    </section>
+</article>

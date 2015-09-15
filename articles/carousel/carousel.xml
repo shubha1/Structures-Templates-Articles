@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="zG8uM6bN" name="animation-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[600]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="DtL9LMJ6" name="slideshow-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[500]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="iMi7qY6X" name="auto-slideshow" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="bEATM56E" name="item-width" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="bfP2ES6O" name="max-items" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="Dv32E299" name="moved-items" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="g0bsg6DY" name="direction-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="R9omA9zE" name="control-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="2YqlDY9K" name="animation-loop" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="wFAejU9h" name="pause-on-hover" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="Ukk9OD9T" name="animation-type" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[fade]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="PqYo7J9c" name="sliding-direction" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[horizontal]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="iOBAyB94" name="manual-controls" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="6gW7Hb9N" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="KYNzQz96" name="pager-abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit,]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="kQ4lh95M" name="image" type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=900_350.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="IP2j2PKI" name="image-height" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[338]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ix77V9qC" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Accounts]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="dQjeidp9" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="a8dJUx9g" name="pager-abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet,]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="kQ4lh95M" name="image" type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=900_350.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="IP2s2PKI" name="image-height" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[338]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ix77V9iC" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Cash Management]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="4JHzgL9h" name="slides" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="5XiR9JxJ" name="pager-abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet,]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="kQ4lh95M" name="image" type="ddm-documentlibrary" dataType="document-library" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=900_350.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="IP2t2PKI" name="image-height" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[338]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ix7WV9iC" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Finance]]></dynamic-content>
+	</dynamic-element>
+</root>

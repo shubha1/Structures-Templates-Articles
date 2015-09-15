@@ -1,0 +1,45 @@
+<div class="portfolio">
+    <header class="portfolio-header">
+        <h1>
+            #if($portofolio-title.data)
+                   $portofolio-title.data
+            #end
+        </h1>
+    </header>
+    <div id="portfolio-filter" class="port-tags">
+        <div class="fl">
+            <span class="port-cat">
+                    Select a category: 
+                        <a href="#all">All</a>
+               #foreach($category in $categories.siblings)
+                <a rel="design" href="#$category.data.replace(" ", "")">$category.data</a>
+               #end
+            </span>
+        </div>
+        <div class="fix"></div>
+    </div>
+    <div id="portfolio-list" class="portfolio-items fix">
+    #foreach($category in $categories.siblings)
+        #foreach($image in $category.images.siblings)
+        <article class="post-102 type-portfolio status-publish portfolio-item $category.data.replace(" ", "")">
+            <a title="" href="$image.link.data" class="item">
+    			<img src="$image.image-source.data" alt="" width="200" height="150" class="">
+                    <span class="mask">
+					    <span class="content">
+						    <h2>$image.image-name.data</h2>
+						    <p class="date">
+#set ($portalBeanLocator = $portal.getClass().forName('com.liferay.portal.kernel.bean.PortalBeanLocatorUtil'))
+#set ($dateFormatFactory = $portalBeanLocator.locate('com.liferay.portal.kernel.util.DateFormatFactoryUtil'))
+#set ($indexFormat = $dateFormatFactory.getSimpleDateFormat('EEE, dd MMM yyyy hh:mm:ss Z'))
+#set ($modified_date = $indexFormat.parse($reserved-article-create-date.getData()))
+$dateTool.format("MMM dd, yyyy",$modified_date)</p>
+					    </span>
+				    </span>
+				<span class="plus"></span>
+			</a>
+            <span class="post-bot"></span>
+        </article>
+        #end
+    #end
+    </div>
+</div>

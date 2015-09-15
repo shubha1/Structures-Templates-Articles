@@ -1,0 +1,98 @@
+<!-- ******slider parameters ****** -->
+
+#set($sliderId = "slider"+$reserved-article-id.data.replaceAll("-", "")+"name")
+#set ($animationSpeed = $getterUtil.getInteger($animation-speed.data))
+#if ($animationSpeed==0)
+   #set ($animationSpeed = 3000)
+#end
+#set ($slideshowSpeed = $getterUtil.getInteger($slideshow-speed.data))
+#if ($slideshowSpeed==0)
+   #set ($slideshowSpeed = 500)
+#end
+#set ($itemWidth = $getterUtil.getInteger($item-width.data))
+
+#set ($move = $getterUtil.getInteger($moved-items.data))
+
+#set ($maxItems = $getterUtil.getInteger($max-items.data))
+
+#set ($slideshow = $auto-slideshow.data)
+#if ($slideshow=="")
+   #set ($slideshow = false)
+#end
+#set ($manualControls = $manual-controls.data)
+#if ($manualControls=="")
+   #set ($manualControls = "''")
+#end
+#set ($directionNav = $direction-nav.data)
+#if ($directionNav=="")
+   #set ($directionNav = false)
+#end
+#set ($controlNav = $control-nav.data)
+#if ($controlNav=="")
+   #set ($controlNav = false)
+#end
+#set ($animationLoop = $animation-loop.data)
+#if ($animationLoop=="")
+   #set ($animationLoop = false)
+#end
+#set ($pauseOnHover = $pause-on-hover.data)
+#if ($pauseOnHover=="")
+   #set ($pauseOnHover = false)
+#end
+
+#set ($animation = "'"+$animation-type.data+"'")
+
+#set ($direction = "'"+$sliding-direction.data+"'")
+
+#set ($contentId = "slider-" + $reserved-article-id.getData() + "-id")
+
+#set ($itemWidth = 225)
+#set ($maxItems = 4)
+#set ($move = 1)
+<div class="multi-image-slider-wrap" id="$contentId">
+
+<ul class="slides" >
+
+     #foreach($item in $items.siblings)
+      <li >              
+       <article class="slide-item">
+			<a href="$item.image-link.data" class="item">
+					<img src="$item.image.data" alt="" width="200" height="150">					
+	       			 <div class="mask">
+						<div class="content">
+							<h2>$item.caption.data</h2>	
+						</div>
+	    		    </div>
+	    		    <span class="plus"></span>
+			</a>
+	
+         </article>
+	</li>
+    #end
+
+</ul>
+
+</div> 
+
+<!-- ********* javaScript ********** -->
+<script type="text/javascript">
+   jQuery(window).load(function() {  
+       jQuery('#$contentId').flexslider({  
+           	animation: $animation,
+           	direction: $direction,   		   	
+           	controlNav: $controlNav,  
+           	directionNav: $directionNav,
+           	slideshow: $slideshow,   
+           	animationSpeed: $animationSpeed ,	
+           	slideshowSpeed: $slideshowSpeed ,
+           	pauseOnHover: $pauseOnHover,
+           	animationLoop: $animationLoop,
+			itemWidth: $itemWidth,
+			maxItems: $maxItems,
+			move: $move,
+			smoothHeight: true,
+			manualControls: $manualControls
+		
+           	   	});   
+            });	
+</script>

@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	 <dynamic-element name="animation-speed" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[In ms, the duration between each slide transition defaule value is 3000]]></entry>
+			<entry name="label"><![CDATA[Animation Speed]]></entry>
+			<entry name="predefinedValue"><![CDATA[600]]></entry>
+		</meta-data>
+	</dynamic-element>
+
+	<dynamic-element name="slideshow-speed" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[In ms, duration of time slide transitions will occupy defaule value is 500]]></entry>
+			<entry name="label"><![CDATA[Slideshow Speed]]></entry>
+			<entry name="predefinedValue"><![CDATA[500]]></entry>
+		</meta-data>
+	</dynamic-element>
+
+	<dynamic-element name="auto-slideshow" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Auto Show Loading]]></entry>
+			<entry name="label"><![CDATA[Auto Show]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	 <dynamic-element name="item-width" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Integer: Box-model width of individual carousel items, including horizontal borders and padding.]]></entry>
+			<entry name="label"><![CDATA[Item Width]]></entry>
+			<entry name="predefinedValue"><![CDATA[0]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="max-items" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.]]></entry>
+			<entry name="label"><![CDATA[Max Items]]></entry>
+			<entry name="predefinedValue"><![CDATA[0]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="moved-items" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Integer: Number of carousel items that should move on animation. If 0, slider will move all visible items.]]></entry>
+			<entry name="label"><![CDATA[Move]]></entry>
+			<entry name="predefinedValue"><![CDATA[0]]></entry>
+		</meta-data>
+	</dynamic-element>
+	
+	<dynamic-element name="direction-nav" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Boolean: Create navigation for previous next navigation ]]></entry>
+			<entry name="label"><![CDATA[Next Prev controls]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="control-nav" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Boolean: Pagination Note: Leave true for manualControls usage ]]></entry>
+			<entry name="label"><![CDATA[Pagination]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="animation-loop" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end ]]></entry>
+			<entry name="label"><![CDATA[Loop]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="pause-on-hover" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering]]></entry>
+			<entry name="label"><![CDATA[Pause On Hover]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="animation-type" type="select" dataType="string" indexType="keyword" repeatable="false">
+		
+		<dynamic-element name="slide" value="slide" type="option" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="label">
+					<![CDATA[Slide]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="fade" value="fade"  type="option" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="label">
+					<![CDATA[Fade]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<meta-data locale="en_US">
+			<entry name="tip"><![CDATA[Select your animation type, "fade" or "slide"]]></entry>
+			<entry name="label"><![CDATA[Animation Type]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+		<dynamic-element name="sliding-direction" type="select" dataType="string" indexType="keyword" repeatable="false">
+		
+		<dynamic-element name="horizontal" value="horizontal" type="option" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="label">
+					<![CDATA[Horizontal]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="vertical" value="vertical" type="option" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="label">
+					<![CDATA[Vertical]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Select the sliding direction, "horizontal" or "vertical"]]></entry>
+			<entry name="label"><![CDATA[Animation Type]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="manual-controls" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Selector: Declare custom control navigation. Examples would be ".flex-control-nav li" or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides or tabs.]]></entry>
+			<entry name="label"><![CDATA[Manual Controls Selector]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="title" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Description Title]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="description" dataType="html" type="ddm-text-html" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Description]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="slides" dataType="string" type="text" indexType="keyword" repeatable="true">
+		<dynamic-element name="image" fieldNamespace="ddm" type="ddm-documentlibrary" dataType="document-library" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Item Thumbnail]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="image-height" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="tip"><![CDATA[Integer: Image Height en pixel (don't put px)]]></entry>
+				<entry name="label"><![CDATA[Image Height]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="image-link" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				
+				<entry name="tip"><![CDATA[for external links add // before your link]]></entry>
+				<entry name="label"><![CDATA[Item Link]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Item]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+</root>

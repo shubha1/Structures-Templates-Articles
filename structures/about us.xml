@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element name="title"  dataType="string" type="text" indexType="keyword" repeatable="false">
+        <meta-data locale="en_US">
+            <entry name="tip"><![CDATA[Title]]></entry>
+            <entry name="label"><![CDATA[Title]]></entry>
+            <entry name="predefinedValue"><![CDATA[]]></entry>
+        </meta-data>
+    </dynamic-element>
+	<dynamic-element name="text" type="textarea" dataType="string" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+            <entry name="tip"><![CDATA[Text]]></entry>
+            <entry name="label"><![CDATA[Text]]></entry>
+            <entry name="predefinedValue"><![CDATA[]]></entry>
+        </meta-data>
+    </dynamic-element>
+</root>

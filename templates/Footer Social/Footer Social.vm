@@ -1,0 +1,65 @@
+#if ($title.data != "")
+	<h2>
+		$title.data
+	</h2>
+#end
+
+#if ($tagline.data != "")
+	<h4>
+		$tagline.data
+	</h4>
+#end
+<ul class="social ">
+#if ($facebook.data!= "")
+		<li>
+			<a class="facebook" href="$fb-url-location.data" target="new_window" title="Facebook">
+			</a>
+		</li>
+#end
+#if ($google-plus.data!= "")
+		<li>
+			<a class="google-plus" href="$gp-url-location.data" target="new_window" title="google plus">
+			</a>
+		</li>
+#end
+#if ($twitter.data!= "")
+		<li>
+			<a class="twitter" href="$tw-url-location.data" target="new_window" title="Twitter">
+			</a>
+		</li>
+#end
+#if ($rss.data!= "")
+		<li>
+			<a class="rss" href="$rs-url-location.data" target="new_window" title="RSS">
+			</a>
+		</li>
+#end
+#if ($linkedin.data!= "")
+		<li>
+			<a class="linkedin" href="$li-url-location.data" target="new_window" title="Linkedin">
+			</a>
+		</li>
+#end
+#if ($youtube.data!= "")
+		<li>
+			<a class="youtube" href="$yu-url-location.data" target="new_window" title="Youtube">
+			</a>
+		</li>
+#end
+#if ($vimeo.data!= "")
+		<li>
+			<a class="vimeo" href="$vi-url-location.data" target="new_window" title="vimeo">
+			</a>
+		</li>
+#end
+	#foreach ($social-link in $social-links.siblings)
+		#if ($social-link.data!= "")
+		<li>
+			<a href="$social-link.url-location.data" target="new_window" title="$social-link.data">
+				<img alt="$social-link.data" src="$social-link.icon.data" />
+
+			</a>
+		</li>
+		#end
+	#end
+</ul>

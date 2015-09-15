@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="G3tbgNeP" name="animation-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[600]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="zL21MygE" name="slideshow-speed" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[500]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="cV1TeOoe" name="auto-slideshow" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="F10Kw9n3" name="item-width" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="rs7y9NiD" name="max-items" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="O5lscbWl" name="moved-items" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[0]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="preWGgv9" name="direction-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[true]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="bfTh1grZ" name="control-nav" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="y1PqaObp" name="animation-loop" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="u6rN5eLQ" name="pause-on-hover" dataType="boolean" type="checkbox" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="DqKcU7hP" name="animation-type" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[slide]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="yZD3854w" name="sliding-direction" type="select" dataType="string" indexType="keyword">
+		<dynamic-content><![CDATA[horizontal]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="423KlMOo" name="manual-controls" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+
+	<dynamic-element instance-id="3cAB0M2i" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="0hU2szvH" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="2V2iS7Ac" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="cyRzpI9d" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Software]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="9hDri0BA" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="yJvO0NzD" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="HdrDdZHX" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="Yk8CS3BT" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Technologies]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="2EKzqXpa" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="TGX8LfBB" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="X57WdBbi" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ZR8l27vI" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Innovative Solutions]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="VMcYj2q2" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="a4GomOaq" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="VmojDfVa" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="FacrSiVv" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Networking]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="UNfauU7R" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="Iik1iVIk" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="OYy5sXJW" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="NkB54Wx3" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[Customer Support]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="bf40aver" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="C6FomdGV" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ajLK1djA" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="fXuPdktQ" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[teal]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="ajLf1djA" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="CfFomdGV" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="afLK1djA" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ffuPdktQ" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[green]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="bg40aver" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="CgFomdGV" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ajgK1djA" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="fXgPdktQ" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[purple]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="bf4gaver" name="items" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="C6FogdGV" name="image" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=200_150.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="ajLK1gjA" name="image-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="fXuPgktQ" name="caption" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[white]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+</root>

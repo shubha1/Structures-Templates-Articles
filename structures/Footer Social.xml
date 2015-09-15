@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+    <dynamic-element name="title" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Title]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="tagline" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Tagline]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+    <dynamic-element name="facebook" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Show Facebook Social icone]]></entry>
+			<entry name="label"><![CDATA[Facebook]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="fb-url-location" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Url]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+	</dynamic-element>
+	<dynamic-element name="google-plus" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Show Google plus Social icone]]></entry>
+			<entry name="label"><![CDATA[Google-plus]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="gp-url-location" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Url]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+	</dynamic-element>
+	<dynamic-element name="twitter" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Show Twitter Social icone]]></entry>
+			<entry name="label"><![CDATA[Twitter]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="tw-url-location" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Url]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+	<dynamic-element name="linkedin" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Show Linkedin Social icone]]></entry>
+			<entry name="label"><![CDATA[Linkedin]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="li-url-location" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Url]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+	</dynamic-element>
+	<dynamic-element name="rss" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Show Rss Social icone]]></entry>
+			<entry name="label"><![CDATA[Rss]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="rs-url-location" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Url]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+	<dynamic-element name="youtube" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Show youtube Social icone]]></entry>
+			<entry name="label"><![CDATA[youtube]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="yu-url-location" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Url]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+	</dynamic-element>
+	<dynamic-element name="vimeo" dataType="boolean" type="checkbox" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[Show vimeo Social icone]]></entry>
+			<entry name="label"><![CDATA[vimeo]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+    <dynamic-element name="vi-url-location" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Url]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+	</dynamic-element>
+
+	<dynamic-element name="social-links" dataType="string" type="text" indexType="keyword" repeatable="true">
+		<dynamic-element name="icon" type="wcm-image" dataType="image" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+				
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[icon]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="url-location" dataType="string" type="text" indexType="keyword" repeatable="false">
+			<meta-data locale="en_US">
+
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Url]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Social Link]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+</root>

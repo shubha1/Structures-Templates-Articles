@@ -1,0 +1,113 @@
+<!-- ******slider parameters ****** -->
+
+#set($sliderId = "slider"+$reserved-article-id.data.replaceAll("-", "")+"name")
+#set ($animationSpeed = $getterUtil.getInteger($animation-speed.data))
+#if ($animationSpeed==0)
+   #set ($animationSpeed = 3000)
+#end
+#set ($slideshowSpeed = $getterUtil.getInteger($slideshow-speed.data))
+#if ($slideshowSpeed==0)
+   #set ($slideshowSpeed = 500)
+#end
+#set ($itemWidth = $getterUtil.getInteger($item-width.data))
+
+#set ($move = $getterUtil.getInteger($moved-items.data))
+
+#set ($maxItems = $getterUtil.getInteger($max-items.data))
+
+#set ($slideshow = $auto-slideshow.data)
+#if ($slideshow=="")
+   #set ($slideshow = false)
+#end
+#set ($manualControls = $manual-controls.data)
+#if ($manualControls=="")
+   #set ($manualControls = "''")
+#end
+#set ($directionNav = $direction-nav.data)
+#if ($directionNav=="")
+   #set ($directionNav = false)
+#end
+#set ($controlNav = $control-nav.data)
+#if ($controlNav=="")
+   #set ($controlNav = false)
+#end
+#set ($animationLoop = $animation-loop.data)
+#if ($animationLoop=="")
+   #set ($animationLoop = false)
+#end
+#set ($pauseOnHover = $pause-on-hover.data)
+#if ($pauseOnHover=="")
+   #set ($pauseOnHover = false)
+#end
+
+#set ($animation = "'"+$animation-type.data+"'")
+
+#set ($direction = "'"+$sliding-direction.data+"'")
+
+#set ($contentId = "slider-" + $reserved-article-id.getData() + "-id")
+#set ($navId = "slider-" + $reserved-article-id.getData() + "-navigation")
+#set ($manualControls = "'#" + $navId + " li'" )
+
+
+<div class="col-full carousel-outer-wrap" >
+	<div class="carousel-wrap" id="$contentId">
+	  
+		
+			<ul class="slides" >
+			#foreach($slide in $slides.siblings)
+		        <li >
+	              
+	                <div class="slide-media">
+				          <a href="$slide.image-link.data" >
+	                          <img  alt="$slide.data"  height="$slide.image-height.data" src="$slide.image.data"></img>
+	                      </a>
+		            </div> 
+	             </li>
+	
+	         #end
+			
+			</ul>
+	   
+	</div>
+	
+	<div class="carousel-slide-nav" id="$navId">
+		<div class="cr-pagination ">
+			<ul class="cr-pager slides">
+	        #foreach($slide in $slides.siblings)
+	        <li class="links">
+	            <a href="">
+	            <span class="title">$slide.data</span>
+	            <span class="content">$slide.pager-abstract.data</span>
+	            </a>
+	        </li>
+	        
+	        #end
+			</ul>
+		</div>
+	</div>
+</div >
+
+
+
+<!-- ********* javaScript ********** -->
+<script type="text/javascript">
+   jQuery(window).load(function() {  
+       jQuery('#$contentId').flexslider({  
+           	animation: $animation,
+           	direction: $direction,   		   	
+           	controlNav: $controlNav,  
+           	directionNav: $directionNav,
+           	slideshow: $slideshow,   
+           	animationSpeed: $animationSpeed ,	
+           	slideshowSpeed: $slideshowSpeed ,
+           	pauseOnHover: $pauseOnHover,
+           	animationLoop: $animationLoop,
+			itemWidth: $itemWidth,
+			maxItems: $maxItems,
+			move: $move,
+			smoothHeight: true,
+			manualControls: $manualControls
+		
+           	   	});   
+            });	
+</script>

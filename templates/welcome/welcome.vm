@@ -1,0 +1,6 @@
+<section id="intro">
+    <header>
+		<h1>$welcome-text.data</h1>
+	</header>
+	<p>$description.data</p>
+</section>

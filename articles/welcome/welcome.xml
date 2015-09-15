@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="vYYlSR1h" name="welcome-text" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[Welcome to this awesome theme!]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="y6Dtdcf3" name="description" dataType="string" type="text" indexType="keyword">
+		<dynamic-content><![CDATA[This intro text can be modified in the options panel, and is a good way to say hello to the visitor.]]></dynamic-content>
+	</dynamic-element>
+</root>

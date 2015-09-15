@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element instance-id="HYc3OoEi" name="features" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="H0owmIPP" name="abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit,]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="dB92jzTA" name="icone" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=64_64.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="rRlIS82O" name="feature-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Responsive Design]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="DMkFNuQ4" name="features" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="kVe3y4x1" name="abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="UohUHTaH" name="icone" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=64_64.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="lTk29lJy" name="feature-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Display Language Bar option]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="QQrFReHf" name="features" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="cRAVrMFB" name="abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="8WPJuXIN" name="icone" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=64_64.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="tfrmEKPX" name="feature-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[12 Color Schemes]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element instance-id="I7fpFY24" name="features" dataType="string" type="text" indexType="keyword">
+		<dynamic-element instance-id="8gsBUtmM" name="abstract" type="textarea" dataType="string" indexType="keyword">
+			<dynamic-content><![CDATA[ Lorem ipsum dolor sit amet, consectetur adipisicing elit,.]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="MC6Qoa7i" name="icone" type="wcm-image" dataType="image" indexType="keyword">
+			<dynamic-content><![CDATA[[$FILE=64_64.png$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element instance-id="lIJGKEvK" name="feature-link" dataType="string" type="text" indexType="keyword">
+			<dynamic-content><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content><![CDATA[Adapted portlets]]></dynamic-content>
+	</dynamic-element>
+	
+</root>

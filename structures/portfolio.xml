@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element name="portofolio-title" dataType="string" type="text" indexType="keyword" repeatable="false">
+		<meta-data locale="en_US">
+			
+			<entry name="tip"><![CDATA[]]></entry>
+			<entry name="label"><![CDATA[Portofolio Title]]></entry>
+			<entry name="predefinedValue"><![CDATA[]]></entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="categories" dataType="string" type="text" indexType="keyword" repeatable="true">
+		
+		<dynamic-element name="images" dataType="string" type="text" indexType="keyword" repeatable="true">
+			
+			<dynamic-element name="image-source" fieldNamespace="ddm" type="ddm-documentlibrary" dataType="document-library" indexType="keyword" repeatable="false">
+				<meta-data locale="en_US">
+					
+					<entry name="tip"><![CDATA[]]></entry>
+					<entry name="label"><![CDATA[Image Source]]></entry>
+					<entry name="predefinedValue"><![CDATA[]]></entry>
+				</meta-data>
+			</dynamic-element>
+			<dynamic-element name="image-name" dataType="string" type="text" indexType="keyword" repeatable="false">
+				<meta-data locale="en_US">
+					
+					<entry name="tip"><![CDATA[]]></entry>
+					<entry name="label"><![CDATA[Image Name]]></entry>
+					<entry name="predefinedValue"><![CDATA[]]></entry>
+				</meta-data>
+			</dynamic-element>
+			<dynamic-element name="link" dataType="string" type="text" indexType="keyword" repeatable="false">
+				<meta-data locale="en_US">
+					
+					<entry name="tip"><![CDATA[for external links add // before your link]]></entry>
+					<entry name="label"><![CDATA[Link]]></entry>
+					<entry name="predefinedValue"><![CDATA[]]></entry>
+				</meta-data>
+			</dynamic-element>			
+			<meta-data locale="en_US">
+				
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[Image]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+		</dynamic-element>
+		<meta-data locale="en_US">
+				
+				<entry name="tip"><![CDATA[]]></entry>
+				<entry name="label"><![CDATA[category]]></entry>
+				<entry name="predefinedValue"><![CDATA[]]></entry>
+			</meta-data>
+	</dynamic-element>
+</root>
